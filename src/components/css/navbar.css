@@ -19,9 +19,9 @@ header {
     grid-template-rows: 12vh;
     grid-template-columns: 20% 80%;
     grid-area: "h1 icon";
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 header h1 {

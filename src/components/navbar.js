@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/navbar.css';
-
+import { Cart } from './CartWidget';
 
 export const Navbar = () => {
     return (
@@ -11,7 +11,7 @@ export const Navbar = () => {
                 <li>Catálogo</li>
                 <li>Contacto</li>
                 <li><i type="button"  style={{ fontWeight: 570 }} className="fas fa-shopping-cart" id="carrito"></i></li>
-                <li><i className="fas fa-user" style={{ fontWeight: 70 }} type="button" data-bs-toggle="modal" data-bs-target="#registerUser"></i></li>
+                <li><Cart></Cart></li>
                 <li> <button type="button" id="cierreSesion" className="btn btn-outline-light">Cerrar Sesión</button></li>
             </ul>
         </nav>
